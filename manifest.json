@@ -1,0 +1,65 @@
+{
+  "name": "Class 8 English Writing — PECTTA",
+  "short_name": "Eng8 Writing",
+  "description": "Applications, letters, essays, paragraphs and comprehension for Class 8 English (PECTTA pattern) — by Muhammad Ijaz",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "/eng8-writing/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#f2ece0",
+  "theme_color": "#7a1f2b",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "books"],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/s1-narrow.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Applications and letters, browsable by section"
+    },
+    {
+      "src": "screenshots/s2-narrow.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Comprehension passages with a tap-to-reveal answer key"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Applications",
+      "short_name": "Applications",
+      "description": "Jump straight to Headmaster applications",
+      "url": "./index.html?section=applications",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Letters",
+      "short_name": "Letters",
+      "description": "Jump straight to informal letters",
+      "url": "./index.html?section=letters",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Comprehension",
+      "short_name": "Comprehension",
+      "description": "Jump straight to comprehension passages",
+      "url": "./index.html?section=comprehensions",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
